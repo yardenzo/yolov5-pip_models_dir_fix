@@ -1,9 +1,9 @@
 from pathlib import Path
 import warnings
 
-from yolov5.models.common import AutoShape, DetectMultiBackend
-from yolov5.models.experimental import attempt_load
-from yolov5.models.yolo import ClassificationModel, SegmentationModel
+from yolov5.yolo_models.common import AutoShape, DetectMultiBackend
+from yolov5.yolo_models.experimental import attempt_load
+from yolov5.yolo_models.yolo import ClassificationModel, SegmentationModel
 from yolov5.utils.general import LOGGER, logging
 from yolov5.utils.torch_utils import select_device
 

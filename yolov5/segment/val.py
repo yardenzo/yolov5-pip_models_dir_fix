@@ -39,8 +39,8 @@ ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
 import torch.nn.functional as F
 
-from yolov5.models.common import DetectMultiBackend
-from yolov5.models.yolo import SegmentationModel
+from yolov5.yolo_models.common import DetectMultiBackend
+from yolov5.yolo_models.yolo import SegmentationModel
 from yolov5.utils.callbacks import Callbacks
 from yolov5.utils.general import (LOGGER, NUM_THREADS, TQDM_BAR_FORMAT, Profile, check_dataset, check_img_size,
                            check_requirements, check_yaml, coco80_to_coco91_class, colorstr, increment_path,
